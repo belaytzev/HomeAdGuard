@@ -1,0 +1,114 @@
+bind_host: 0.0.0.0
+bind_port: 3000
+users: []
+http_proxy: ""
+language: ""
+rlimit_nofile: 0
+debug_pprof: false
+web_session_ttl: 720
+dns:
+  bind_host: 0.0.0.0
+  port: 53
+  statistics_interval: 1
+  querylog_enabled: true
+  querylog_interval: 90
+  querylog_size_memory: 1000
+  anonymize_client_ip: false
+  protection_enabled: true
+  blocking_mode: null_ip
+  blocking_ipv4: false
+  blocking_ipv6: true
+  blocked_response_ttl: 10
+  parental_block_host: family-block.dns.adguard.com
+  safebrowsing_block_host: standard-block.dns.adguard.com
+  ratelimit: 100
+  ratelimit_whitelist: []
+  refuse_any: true
+  upstream_dns:
+  - tls://1.1.1.1
+  - tls://dns.google
+  - tls://dns.quad9.net
+  bootstrap_dns:
+  - '1.1.1.1'
+  - '1.0.0.1'
+  - '8.8.8.8'
+  - '8.8.4.4'
+  all_servers: false
+  fastest_addr: true
+  allowed_clients: []
+  disallowed_clients: []
+  blocked_hosts: []
+  cache_size: 4194304
+  cache_ttl_min: 0
+  cache_ttl_max: 0
+  bogus_nxdomain: []
+  aaaa_disabled: true
+  enable_dnssec: false
+  edns_client_subnet: false
+  filtering_enabled: true
+  filters_update_interval: 24
+  parental_enabled: false
+  safesearch_enabled: true
+  safebrowsing_enabled: false
+  safebrowsing_cache_size: 1048576
+  safesearch_cache_size: 1048576
+  parental_cache_size: 1048576
+  cache_time: 30
+  rewrites: []
+  blocked_services: []
+tls:
+  enabled: false
+  server_name: ""
+  force_https: false
+  port_https: 443
+  port_dns_over_tls: 853
+  allow_unencrypted_doh: false
+  strict_sni_check: false
+  certificate_chain: ""
+  private_key: ""
+  certificate_path: ""
+  private_key_path: ""
+filters:
+- enabled: true
+  url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+  name: AdGuard Simplified Domain Names filter
+  id: 1
+- enabled: true
+  url: https://adaway.org/hosts.txt
+  name: AdAway
+  id: 2
+- enabled: true
+  url: https://www.malwaredomainlist.com/hostslist/hosts.txt
+  name: MalwareDomainList.com Hosts List
+  id: 3
+- enabled: true
+  url: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+  name: StevenBlack Hosts List
+  id: 4
+- enabled: true
+  url: https://mirror1.malwaredomains.com/files/justdomains
+  name: Malwaredomains
+  id: 5
+- enabled: true
+  url: https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
+  name: Disconnect.me Tracking
+  id: 6
+- enabled: true
+  url: https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+  name: Disconnect.me Ad
+  id: 7
+whitelist_filters: []
+user_rules: []
+dhcp:
+  enabled: false
+  interface_name: ""
+  gateway_ip: ""
+  subnet_mask: ""
+  range_start: ""
+  range_end: ""
+  lease_duration: 86400
+  icmp_timeout_msec: 1000
+clients: []
+log_file: ""
+verbose: false
+schema_version: 6

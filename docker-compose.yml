@@ -1,0 +1,33 @@
+version: "2.4"
+
+services:
+  pihole:
+    hostname: adguardhome
+    container_name: adguardhome
+    build:
+      context: .
+      dockerfile: Dockerfile
+    mem_limit: 256m
+    mem_reservation: 128m
+    # For DHCP it is recommended to remove these ports and instead add: network_mode: "host"
+    ports:
+      - "53:53/tcp" #DNS
+      - "53:53/udp" #DNS
+      - "853:853/tcp" #Secure DNS
+      - "67:67/udp" #DHCP
+      - "68:68/tcp" #DHCP
+      - "68:68/udp" #DHCP
+      - "80:80/tcp" # Web Interface
+      - "443:443/tcp" # Secure Web Interface
+      - "3000:3000/tcp" # Web Interface
+    volumes:
+      - './data/work:/opt/adguardhome/work'
+    dns:
+      - 127.0.0.1
+      - 1.1.1.1
+    logging:
+        driver: "json-file"
+        options:
+            max-file: "10"
+            max-size: "10m"
+    restart: unless-stopped

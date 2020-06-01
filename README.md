@@ -1,2 +1,2 @@
 # HomeGuard
-AdGuard Home in Docker-Compose
+AdGuard Home in Docker-Compose with configs
