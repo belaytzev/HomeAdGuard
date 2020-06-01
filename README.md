@@ -1,9 +1,9 @@
 &nbsp;
 <p align="center">
-  <img src="https://sendeyo.com/up/d/10ac0e61d2" width="600px" alt="HomeGuard" />
+  <img src="https://sendeyo.com/up/d/10ac0e61d2" width="600px" alt="HomeAdGuard" />
 </p>
 
-# HomeGuard
+# HomeAdGuard
 AdGuard Home in Docker-Compose with configs
 
 ## Quick Start
