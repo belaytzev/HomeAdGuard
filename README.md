@@ -1,3 +1,8 @@
+&nbsp;
+<p align="center">
+  <img src="https://raw.githubusercontent.com/belaytzev/HomeGuard/master/homeguard.svg" width="600px" alt="HomeGuard" />
+</p>
+
 # HomeGuard
 AdGuard Home in Docker-Compose with configs
 
