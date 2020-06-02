@@ -13,13 +13,7 @@ services:
     ports:
       - "53:53/tcp" #DNS
       - "53:53/udp" #DNS
-      - "853:853/tcp" #Secure DNS
-      - "67:67/udp" #DHCP
-      - "68:68/tcp" #DHCP
-      - "68:68/udp" #DHCP
       - "80:80/tcp" # Web Interface
-      - "443:443/tcp" # Secure Web Interface
-      - "3000:3000/tcp" # Web Interface
     volumes:
       - './data/work:/opt/adguardhome/work'
     dns:
