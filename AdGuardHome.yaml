@@ -48,7 +48,7 @@ dns:
   filtering_enabled: true
   filters_update_interval: 24
   parental_enabled: false
-  safesearch_enabled: true
+  safesearch_enabled: false
   safebrowsing_enabled: true
   safebrowsing_cache_size: 1048576
   safesearch_cache_size: 1048576
