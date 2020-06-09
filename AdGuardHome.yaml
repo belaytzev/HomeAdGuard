@@ -109,37 +109,29 @@ filters:
   name: anudeepND Blocklist Ads
   id: 9
 - enabled: true
-  url: https://easylist.to/easylist/easylist.txt
-  name: EasyList
-  id: 10
-- enabled: true
   url: https://raw.githubusercontent.com/Yhonay/antipopads/master/popads.txt
   name: Anti popads.net
-  id: 11
+  id: 10
 - enabled: true
   url: https://hosts.oisd.nl
   name: oisd blocklist by sjhgvr
-  id: 12
+  id: 11
 - enabled: true
   url: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/domains.txt
   name: NoTracking
-  id: 13
+  id: 12
 - enabled: true
   url: http://winhelp2002.mvps.org/hosts.txt
   name: MVPS HOSTS
-  id: 14
+  id: 13
 - enabled: true
-  url: https://block.energized.pro/ultimate/formats/hosts.txt
-  name: Energized Protection Ultimate
-  id: 15
+  url: https://block.energized.pro/basic/formats/hosts.txt
+  name: Energized Protection Basic
+  id: 14
 - enabled: true
   url: https://block.energized.pro/extensions/regional/formats/domains.txt
   name: Energized Protection Extensions Regional
-  id: 16
-- enabled: true
-  url: https://block.energized.pro/extensions/ips/formats/list.txt
-  name: Energized Protection Extensions IP
-  id: 17
+  id: 15
 whitelist_filters: []
 user_rules: []
 dhcp:
