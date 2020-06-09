@@ -28,6 +28,9 @@ dns:
   - tls://1.1.1.1
   - tls://dns.google
   - tls://dns.quad9.net
+  - https://dns.cloudflare.com/dns-query
+  - https://dns.google/dns-query
+  - https://doh.opendns.com/dns-query
   bootstrap_dns:
   - '1.1.1.1'
   - '1.0.0.1'
@@ -95,8 +98,40 @@ filters:
   id: 6
 - enabled: true
   url: https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
-  name: Disconnect.me Ad
+  name: Disconnect.me Ads
   id: 7
+- enabled: true
+  url: https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
+  name: Goodbye Ads
+  id: 8
+- enabled: true
+  url: https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
+  name: anudeepND Blocklist Ads
+  id: 9
+- enabled: true
+  url: https://easylist.to/easylist/easylist.txt
+  name: EasyList
+  id: 10
+- enabled: true
+  url: https://raw.githubusercontent.com/Yhonay/antipopads/master/popads.txt
+  name: Anti popads.net
+  id: 11
+- enabled: true
+  url: https://hosts.oisd.nl
+  name: oisd blocklist by sjhgvr
+  id: 12
+- enabled: true
+  url: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/domains.txt
+  name: NoTracking
+  id: 13
+- enabled: true
+  url: http://winhelp2002.mvps.org/hosts.txt
+  name: MVPS HOSTS
+  id: 14
+- enabled: true
+  url: https://block.energized.pro/ultimate/formats/hosts.txt
+  name: Energized Protection Ultimate
+  id: 15
 whitelist_filters: []
 user_rules: []
 dhcp:
