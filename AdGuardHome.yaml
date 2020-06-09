@@ -132,6 +132,14 @@ filters:
   url: https://block.energized.pro/ultimate/formats/hosts.txt
   name: Energized Protection Ultimate
   id: 15
+- enabled: true
+  url: https://block.energized.pro/extensions/regional/formats/domains.txt
+  name: Energized Protection Extensions Regional
+  id: 16
+- enabled: true
+  url: https://block.energized.pro/extensions/ips/formats/list.txt
+  name: Energized Protection Extensions IP
+  id: 17
 whitelist_filters: []
 user_rules: []
 dhcp:
