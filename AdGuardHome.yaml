@@ -129,7 +129,11 @@ filters:
   url: https://block.energized.pro/extensions/regional/formats/domains.txt
   name: Energized Protection Extensions Regional
   id: 15
-whitelist_filters: []
+whitelist_filters:
+- enabled: true
+  url: https://raw.githubusercontent.com/EnergizedProtection/unblock/master/basic/formats/domains.txt
+  name: Energized Protection Whitelist Basic
+  id: 1
 user_rules: []
 dhcp:
   enabled: false
