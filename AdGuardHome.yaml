@@ -25,14 +25,14 @@ dns:
   ratelimit_whitelist: []
   refuse_any: true
   upstream_dns:
-  - tls://1.1.1.1
-  - https://dns.cloudflare.com/dns-query
-  - https://doh.opendns.com/dns-query
+  - tls://1.1.1.1 #Cloudflare Public DNS
+  - https://dns.cloudflare.com/dns-query #Cloudflare Public DNS
+  - https://doh.opendns.com/dns-query #Cisco Open DNS
   bootstrap_dns:
-  - '1.1.1.1'
-  - '1.0.0.1'
-  - '208.67.222.222'
-  - '208.67.220.220'
+  - '1.1.1.1' #Cloudflare Public DNS
+  - '1.0.0.1' #Cloudflare Public DNS
+  - '208.67.222.222' #Cisco Open DNS
+  - '208.67.220.220' ##Cisco Open DNS
   all_servers: false
   fastest_addr: true
   allowed_clients: []
