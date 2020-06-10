@@ -26,16 +26,13 @@ dns:
   refuse_any: true
   upstream_dns:
   - tls://1.1.1.1
-  - tls://dns.google
-  - tls://dns.quad9.net
   - https://dns.cloudflare.com/dns-query
-  - https://dns.google/dns-query
   - https://doh.opendns.com/dns-query
   bootstrap_dns:
   - '1.1.1.1'
   - '1.0.0.1'
-  - '8.8.8.8'
-  - '8.8.4.4'
+  - '208.67.222.222'
+  - '208.67.220.220'
   all_servers: false
   fastest_addr: true
   allowed_clients: []
