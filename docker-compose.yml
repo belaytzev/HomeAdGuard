@@ -1,7 +1,7 @@
 version: "2.4"
 
 services:
-  homeadguard:
+  adguardhome:
     hostname: adguardhome
     container_name: adguardhome
     build:
