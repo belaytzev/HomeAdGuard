@@ -1,7 +1,7 @@
 version: "2.4"
 
 services:
-  pihole:
+  homeadguard:
     hostname: adguardhome
     container_name: adguardhome
     build:
