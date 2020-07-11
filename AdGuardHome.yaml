@@ -137,10 +137,6 @@ filters:
   url: https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/doubleclickparsed
   name: Doubleclick Ads Block
   id: 17
-- enabled: true
-  url: https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/generalparsed
-  name: Google Ads Block
-  id: 18
 whitelist_filters: []
 user_rules: []
 dhcp:
