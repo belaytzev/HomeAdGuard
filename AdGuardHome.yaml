@@ -133,6 +133,10 @@ filters:
   url: https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt
   name: GoodbyeAds YouTube Ads Block
   id: 16
+- enabled: true
+  url: https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/doubleclickparsed
+  name: Doubleclick Ads Block
+  id: 17
 whitelist_filters: []
 user_rules: []
 dhcp:
