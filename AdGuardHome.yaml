@@ -141,6 +141,10 @@ filters:
   url: https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/analyticsparsed
   name: Google Analytics Block
   id: 18
+- enabled: true
+  url: https://raw.githubusercontent.com/hl2guide/Filterlist-for-AdGuard/master/filter_blocklist.txt
+  name: Filterlist for AdGuard 2.0
+  id: 19
 whitelist_filters: []
 user_rules: []
 dhcp:
