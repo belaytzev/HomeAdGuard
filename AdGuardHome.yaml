@@ -114,7 +114,7 @@ filters:
   name: oisd blocklist by sjhgvr
   id: 11
 - enabled: true
-  url: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/domains.txt
+  url: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt
   name: NoTracking
   id: 12
 - enabled: true
