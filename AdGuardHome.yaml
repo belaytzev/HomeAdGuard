@@ -90,49 +90,37 @@ filters:
   name: Malwaredomains
   id: 5
 - enabled: true
-  url: https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
-  name: Disconnect.me Tracking
-  id: 6
-- enabled: true
-  url: https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
-  name: Disconnect.me Ads
-  id: 7
-- enabled: true
   url: https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
   name: anudeepND Blocklist Ads
-  id: 8
+  id: 6
 - enabled: true
   url: https://raw.githubusercontent.com/Yhonay/antipopads/master/hosts
   name: Anti popads.net
-  id: 9
+  id: 7
 - enabled: true
   url: https://hosts.oisd.nl
   name: oisd blocklist by sjhgvr
-  id: 10
+  id: 8
 - enabled: true
   url: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt
   name: NoTracking
-  id: 11
-- enabled: true
-  url: http://winhelp2002.mvps.org/hosts.txt
-  name: MVPS HOSTS
-  id: 12
+  id: 9
 - enabled: true
   url: https://block.energized.pro/basic/formats/hosts.txt
   name: Energized Protection Basic
-  id: 13
+  id: 10
 - enabled: true
   url: https://block.energized.pro/extensions/regional/formats/domains.txt
   name: Energized Protection Extensions Regional
-  id: 14
+  id: 11
 - enabled: true
   url: https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/doubleclickparsed
   name: Doubleclick Ads Block
-  id: 15
+  id: 12
 - enabled: true
   url: https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/analyticsparsed
   name: Google Analytics Block
-  id: 16
+  id: 13
 whitelist_filters: []
 user_rules: []
 dhcp:
