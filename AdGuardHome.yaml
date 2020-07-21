@@ -106,7 +106,7 @@ filters:
   name: anudeepND Blocklist Ads
   id: 9
 - enabled: true
-  url: https://raw.githubusercontent.com/Yhonay/antipopads/master/popads.txt
+  url: https://raw.githubusercontent.com/Yhonay/antipopads/master/hosts
   name: Anti popads.net
   id: 10
 - enabled: true
@@ -130,17 +130,13 @@ filters:
   name: Energized Protection Extensions Regional
   id: 15
 - enabled: true
-  url: https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt
-  name: GoodbyeAds YouTube Ads Block
-  id: 16
-- enabled: true
   url: https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/doubleclickparsed
   name: Doubleclick Ads Block
-  id: 17
+  id: 16
 - enabled: true
   url: https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/analyticsparsed
   name: Google Analytics Block
-  id: 18
+  id: 17
 whitelist_filters: []
 user_rules: []
 dhcp:
