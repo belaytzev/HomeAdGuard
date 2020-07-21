@@ -69,58 +69,18 @@ tls:
   certificate_path: ""
   private_key_path: ""
 filters:
-- enabled: false
-  url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-  name: AdGuard Simplified Domain Names filter
-  id: 1
-- enabled: true
-  url: https://adaway.org/hosts.txt
-  name: AdAway
-  id: 2
-- enabled: true
-  url: https://www.malwaredomainlist.com/hostslist/hosts.txt
-  name: MalwareDomainList.com Hosts List
-  id: 3
-- enabled: true
-  url: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-  name: StevenBlack Hosts List
-  id: 4
-- enabled: true
-  url: https://mirror1.malwaredomains.com/files/justdomains
-  name: Malwaredomains
-  id: 5
-- enabled: true
-  url: https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
-  name: anudeepND Blocklist Ads
-  id: 6
-- enabled: true
-  url: https://raw.githubusercontent.com/Yhonay/antipopads/master/hosts
-  name: Anti popads.net
-  id: 7
-- enabled: true
-  url: https://hosts.oisd.nl
-  name: oisd blocklist by sjhgvr
-  id: 8
-- enabled: true
-  url: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt
-  name: NoTracking
-  id: 9
 - enabled: true
   url: https://block.energized.pro/basic/formats/hosts.txt
   name: Energized Protection Basic
-  id: 10
+  id: 1
 - enabled: true
-  url: https://block.energized.pro/extensions/regional/formats/domains.txt
-  name: Energized Protection Extensions Regional
-  id: 11
+  url: https://www.malwaredomainlist.com/hostslist/hosts.txt
+  name: MalwareDomainList.com Hosts List
+  id: 2
 - enabled: true
-  url: https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/doubleclickparsed
-  name: Doubleclick Ads Block
-  id: 12
-- enabled: true
-  url: https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/analyticsparsed
-  name: Google Analytics Block
-  id: 13
+  url: https://mirror1.malwaredomains.com/files/justdomains
+  name: Malwaredomains
+  id: 3
 whitelist_filters: []
 user_rules: []
 dhcp:
