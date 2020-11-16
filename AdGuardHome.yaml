@@ -28,11 +28,19 @@ dns:
   - tls://1.1.1.1 #Cloudflare Public DNS
   - https://dns.cloudflare.com/dns-query #Cloudflare Public DNS
   - https://doh.opendns.com/dns-query #Cisco Open DNS
+  - tls://101.101.101.101 #Quad101
+  - https://dns.twnic.tw/dns-query #Quad101
+  - tls://dns10.quad9.net #Quad9 DNS
+  - https://dns10.quad9.net/dns-query #Quad9 DNS
   bootstrap_dns:
   - '1.1.1.1' #Cloudflare Public DNS
   - '1.0.0.1' #Cloudflare Public DNS
   - '208.67.222.222' #Cisco Open DNS
-  - '208.67.220.220' ##Cisco Open DNS
+  - '208.67.220.220' #Cisco Open DNS
+  - '101.101.101.101' #Quad101
+  - '101.102.103.104' #Quad101
+  - '9.9.9.10' #Quad9 DNS
+  - '149.112.112.10' #Quad9 DNS
   all_servers: false
   fastest_addr: true
   allowed_clients: []
