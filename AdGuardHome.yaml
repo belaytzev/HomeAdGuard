@@ -29,17 +29,12 @@ dns:
   ratelimit_whitelist: []
   refuse_any: true
   upstream_dns:
-  - tls://1.1.1.1 #Cloudflare Public DNS
-  - tls://dns10.quad9.net #Quad9 DNS
-  - https://doh.opendns.com/dns-query #Cisco Open DNS
+  - tls://doh.mullvad.net #Mullvad
+  - tls://dns.quad9.net #Quad9 DNS
   upstream_dns_file: ""
   bootstrap_dns:
-  - '1.1.1.1' #Cloudflare Public DNS
-  - '1.0.0.1' #Cloudflare Public DNS
-  - '208.67.222.222' #Cisco Open DNS
-  - '208.67.220.220' #Cisco Open DNS
   - '9.9.9.10' #Quad9 DNS
-  - '149.112.112.10' #Quad9 DNS
+  - '149.112.112.112' #Quad9 DNS
   all_servers: false
   fastest_addr: false
   allowed_clients: []
@@ -90,16 +85,16 @@ filters:
   name: Energized Protection Basic
   id: 1
 - enabled: true
-  url: https://www.malwaredomainlist.com/hostslist/hosts.txt
-  name: MalwareDomainList.com Hosts List
+  url: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt
+  name: Notracking blocklist
   id: 2
 - enabled: true
-  url: https://mirror1.malwaredomains.com/files/justdomains
-  name: Malwaredomains
+  url: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+  name: StevenBlack
   id: 3
 - enabled: true
-  url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-  name: AdGuard DNS filter
+  url: https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/newhosts-final.hosts
+  name: Combined Privacy Block Lists
   id: 4
 whitelist_filters: []
 user_rules: []
