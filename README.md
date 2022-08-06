@@ -1,8 +1,3 @@
-&nbsp;
-<p align="center">
-  <img src="https://sendeyo.com/up/d/10ac0e61d2" width="600px" alt="HomeAdGuard" />
-</p>
-
 # HomeAdGuard
 AdGuard Home in Docker-Compose with configs
 
