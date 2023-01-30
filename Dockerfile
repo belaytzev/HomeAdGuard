@@ -1,4 +1,4 @@
-FROM adguard/adguardhome:v0.106.2
+FROM adguard/adguardhome:v0.107.22
 
 COPY AdGuardHome.yaml /opt/adguardhome/conf/AdGuardHome.yaml
 
