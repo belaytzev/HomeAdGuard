@@ -31,16 +31,16 @@ dns:
   ratelimit_whitelist: []
   refuse_any: true
   upstream_dns:
-  - tls://doh.mullvad.net
-  - tls://dns.quad9.net
-  - tls://dot.seby.io
-  - tls://getdnsapi.net
-  - tls://unicast.censurfridns.dk
-  - tls://dnsforge.de
-  - quic://dnsforge.de:853
-  - tls://dot1.applied-privacy.net
-  - tls://dot.tiar.app
-  - quic://doh.tiar.app
+    - tls://doh.mullvad.net
+    - tls://dns.quad9.net
+    - tls://dot.seby.io
+    - tls://getdnsapi.net
+    - tls://unicast.censurfridns.dk
+    - tls://dnsforge.de
+    - quic://dnsforge.de:853
+    - tls://dot1.applied-privacy.net
+    - tls://dot.tiar.app
+    - quic://doh.tiar.app
   upstream_dns_file: ""
   bootstrap_dns:
     - 9.9.9.9
